@@ -25,7 +25,7 @@ Bu proje, hastaların bilgilerini yönetmek, öncelik sırasına göre işlem ya
 ./acil_servis
 
 
-## Menü Seçenekleri
+### Menü Seçenekleri
 Program çalıştırıldığında, aşağıdaki seçeneklerden biri seçilebilir:
 
 1. Yeni Hasta Ekle: Hasta bilgilerini girmek ve kuyruğa eklemek için.
@@ -33,12 +33,12 @@ Program çalıştırıldığında, aşağıdaki seçeneklerden biri seçilebilir
 3. Hasta Listesini Görüntüle: Mevcut hasta listesini öncelik sırasına göre görüntülemek için.
 4. Çıkış: Programı sonlandırmak için.
 
-## HL7 Formatı
+### HL7 Formatı
 Hasta bilgileri HL7 formatında aşağıdaki gibi görüntülenir:
    ```bash
 PID|<Reçete No>|<Ad>|<Doğum Tarihi>|<Cinsiyet>|<İletişim>|<Şikayet>|<Nabız>|<Vücut Sıcaklığı>|<Tansiyon (Büyük/Küçük)>|
 ```
-## Örnek Çıktı
+### Örnek Çıktı
    ```bash
 PID|RX12345|Ahmet Yilmaz|15.03.1985|E|555-555-5555|Baş ağrısı|80|36.5|130/85|
 ```
