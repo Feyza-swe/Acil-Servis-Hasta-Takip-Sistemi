@@ -22,8 +22,9 @@ Bu proje, hastaların bilgilerini yönetmek, öncelik sırasına göre işlem ya
    gcc -o acil_servis acil_servis.c
 
 2. Derlemenin ardından programı çalıştırmak için:
+```bash
 ./acil_servis
-
+```
 
 ### Menü Seçenekleri
 Program çalıştırıldığında, aşağıdaki seçeneklerden biri seçilebilir:
